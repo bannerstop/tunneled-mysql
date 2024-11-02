@@ -1,0 +1,7 @@
+/.idea/
+/vendor/
+*.log
+*.cache
+.DS_Store
+desktop.ini
+thumbs.db

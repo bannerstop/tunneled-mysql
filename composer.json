@@ -1,0 +1,26 @@
+{
+    "name": "bannerstop/tunneled-mysql",
+    "description": "Using a MySQL server via an SSH tunnel.",
+    "type": "library",
+    "license": "MIT",
+    "version": "0.0.1",
+    "require": {
+        "php": ">=7.4",
+        "ext-pdo": "*"
+    },
+    "authors": [
+        {
+            "name": "Marek Pędzik",
+            "email": "marek.pendzik@gmail.com"
+        },
+        {
+            "name": "Marius Lüxmann",
+            "email": "luexmann@bannerstop.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Bannerstop\\TunneledMysql\\": "src/"
+        }
+    }
+}
