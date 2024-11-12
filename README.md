@@ -35,7 +35,7 @@ $tunnelBuilder = new \Bannerstop\TunneledMysql\TunnelBuilder(
         'user',
         'path/to/private_key'
     ),
-    new \Bannerstop\TunneledMysql\Mysql\MySQLCredentials(
+    new \Bannerstop\TunneledMysql\MySQL\MySQLCredentials(
         'username',
         'pass',
         'dbname'
@@ -45,5 +45,5 @@ $tunnelBuilder = new \Bannerstop\TunneledMysql\TunnelBuilder(
 $mysql = $tunnelBuilder->build()->run();
 
 $query = $mysql->query('SELECT * FROM example LIMIT 1');
-print_r($q->fetch());
+print_r($query->fetch());
 ```
